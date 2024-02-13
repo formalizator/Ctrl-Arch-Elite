@@ -33,6 +33,6 @@ Intelligent Analysis and Alerts: Beyond mere data collection, MonitorMe's sophis
 
 Seamless Integration with StayHealthy Mobile App: Medical professionals receive instant push notifications on their smartphones via the StayHealthy mobile app, alerting them to potential issues detected by MonitorMe. 
 
-Robust Redundancy and Reliability: In the event of device or software failures, MonitorMe continues to function for other vital sign monitoring activities, safeguarding patient safety and data integrity at all times. Its on-premises deployment model ensures maximum reliability and responsiveness, with each physical instance capable of monitoring up to 500 patients.
+Robust Redundancy and Reliability: In the event of device or software failures, MonitorMe continues to function for other vital sign monitoring activities, safeguarding patient safety and data integrity at all times.
 
 In summary, MonitorMe represents a transformative solution that redefines patient monitoring in healthcare settings. With its comprehensive features, intelligent analysis, seamless integration, and unwavering commitment to patient care, MonitorMe stands poised to revolutionize the way medical professionals monitor and respond to patient vital signs, ensuring better outcomes and improved quality of care.
