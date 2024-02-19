@@ -1,6 +1,6 @@
 # Decomposed Requirements
 
-Requirements decomposition for linking. 
+Requirements decomposition for linking.
 
 ## Functional requirements
 
@@ -16,7 +16,7 @@ Requirements decomposition for linking.
 >"For each vital sign, MonitorMe must record and store the past 24 hours of all vital sign readings. A medical
 professional can review this history, filtering on time range as well as vital sign."
 
-#Actor:MedicalProfessionals:
+**Actor: [Medical professionals](./03_Actors.md#Medical-professionals)**
 
 [REQ.F.4](#REQ.F.4) Send alert in case of any vital sign value is out of regular range
 > In addition to recording raw monitoring data, the MonitorMe software must also analyze each patient’s vital signs and alert a medical professional if it detects an issue (e.g., decrease in oxygen level) or reaches a preset threshold (e.g., temperature has reached 104 degrees F).
@@ -29,12 +29,12 @@ professional can review this history, filtering on time range as well as vital s
 StayHeathy mobile app on their smart phone as well as the consolidated monitoring screen in each nurses
 station.
 
-#Actor:MedicalProfessionals:
+**Actor: [Medical professionals](./03_Actors.md#Medical-professionals)**
 
 [REQ.F.7](#REQ.F.7) Generate holistic snapshots from a patients consolidated vital signs at any time
 > Medical staff can generate holistic snapshots from a patients consolidated vital signs at any time
 
-#Actor:MedicalStaff:
+**Actor: [Medical staff](./03_Actors.md#Medical-staff)**
 
 [REQ.F.8](#REQ.F.8) Provide metrics collected from monitoring devices for further analysis
 >...comprehensive data analytics platform that is used for hospital trend and performance analytics—alert response times, patient health problem analytics, patient recovery analysis…
@@ -43,22 +43,22 @@ station.
 > MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records with guaranteed partitioning between patient records.
 
 #System:MyMedicalID:
-#Actor:HelthProfessionals:
+**Actor: [Medical professionals](./03_Actors.md#Medical-professionals)**
 
 [REQ.F.10](#REQ.F.10) Track patient health data
 
 [REQ.F.11](#REQ.F.11) Store MonotorMe snapshot
 > Medical staff can then upload the patient snapshot to MyMedicalData
 
-#System:MyMedicalID:
-#Actor:MedicalStaff:
+#System:MyMedicalID:<br/>
+**Actor: [Medical staff](./03_Actors.md#Medical-staff)**
 
 [REQ.F.12](#REQ.F.12) Provide hospital trend
 > MonitorThem a comprehensive data analytics platform that is used for hospital trend and performance
 analytics—alert response times, patient health problem analytics, patient recovery analysis, and so on.
 
 #System:MonitorThem:
-#Actor:MedicalProfessionals:
+**Actor: [Medical professionals](./03_Actors.md#Medical-professionals)**
 
 [REQ.F.13](#REQ.F.13) Provide performance analztics
 
