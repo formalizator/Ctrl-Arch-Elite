@@ -2,15 +2,15 @@
 
 ![**MonitorMe** logo](../images/logo.png)
 
-StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: **MonitorThem** and **MyMedicalData**.<br>
+StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: **MonitorThem** and **MyMedicalData**.
 
-**MonitorThem** a comprehensive data analytics platform that is used for hospital trend and performance analytics—alert response times, patient health problem analytics, patient recovery analysis, and so on.<br>
+**MonitorThem** a comprehensive data analytics platform that is used for hospital trend and performance analytics—alert response times, patient health problem analytics, patient recovery analysis, and so on.
 
-**MyMedicalData** is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records with guaranteed partitioning between patient records.<br>
+**MyMedicalData** is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records with guaranteed partitioning between patient records.
 
 StayHealthy, Inc. is now expanding into the medical monitoring market, and is in need of a new medical patient monitoring system for hospitals that monitors a patients vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
 
-## Requirements:
+## Requirements
 
 * **MonitorMe** reads data from eight different patient-monitoring equipment vital sign input sources: heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and sleep status (sleep or awake). It then sends the data to a consolidated monitoring screen (per nurses station) with an average response time of 1 second or less. The consolidated monitoring screen displays each patients vital signs, rotating between patients every 5 seconds. There is a maximum of 20 patients per nurses station.
 
@@ -18,7 +18,7 @@ StayHealthy, Inc. is now expanding into the medical monitoring market, and is in
 
 * In addition to recording raw monitoring data, the **MonitorMe** software must also analyze each patient’s vital signs and alert a medical professional if it detects an issue (e.g., decrease in oxygen level) or reaches a preset threshold (e.g., temperature has reached 104 degrees F).
 
-* Some trend and threshold analysis is dependent on whether the patient is awake or asleep. For example, if the blood pressure drops, the system should notice that the patient is asleep and adjust its alerts accordingly.<br>
+* Some trend and threshold analysis is dependent on whether the patient is awake or asleep. For example, if the blood pressure drops, the system should notice that the patient is asleep and adjust its alerts accordingly.<br/>
 The same is true with the respiration rate and heart rate. For example, all of these vital signs are reduced when the patient is asleep, but if awake something might be wrong.
 
 ## Requirements (cont.)
@@ -29,15 +29,15 @@ The same is true with the respiration rate and heart rate. For example, all of t
 
 * Medical staff can generate holistic snapshots from a patients consolidated vital signs at any time. Medical staff can then upload the patient snapshot to **MyMedicalData**. The upload functionality is within the scope of the **MonitorMe** functionality and is done through a secure HTTP API call within **MyMedicalData**.
 
-* Each patient monitoring device transmits vital sign readings at a different rate:<br>
-Heart rate: every 500ms<br>
-Blood pressure: every hour<br>
-Oxygen level: every 5 seconds<br>
-Blood sugar: every 2 minutes<br>
-Respiration: every second<br>
-ECG: every second<br>
-Body temperature: every 5 minutes<br>
-Sleep status: every 2 minutes<br>
+* Each patient monitoring device transmits vital sign readings at a different rate:
+  * Heart rate: every 500ms
+  * Blood pressure: every hour
+  * Oxygen level: every 5 seconds
+  * Blood sugar: every 2 minutes
+  * Respiration: every second
+  * ECG: every second
+  * Body temperature: every 5 minutes
+  * Sleep status: every 2 minutes
 
 * **MonitorMe** will be deployed as an on-premises system. Each physical hospital location will have its own installation of the complete **MonitorMe** system (including the recorded raw monitoring data).
 
@@ -45,8 +45,7 @@ Sleep status: every 2 minutes<br>
 
 * StayHealthy. Inc. will be providing a **comprehensive** hardware and software for this system. The platform, data stores, databases, and other technical tools and products are unspecified at this time and will be based on your on-prem architectural solution.
 
-
-## Other Considerations:
+## Other Considerations
 
 * StayHealthy, Inc. is looking towards adding more vital sign monitoring devices for **MonitorMe** in the future.
 
