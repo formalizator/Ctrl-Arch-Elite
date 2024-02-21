@@ -1,3 +1,15 @@
+**Status** : proposed 
+
+**Date** : 21.02.2024
+
+**Stakeholders**
+
+- [ ] @vera-ignateva
+- [ ] @formalizator
+- [ ] @slookin
+- [ ] @alkhamov
+
+
 # ADR 1: Where store 24h data?
 
 **Context:** MonitorMe need to store 24h data for up to 500 patient.
@@ -18,3 +30,7 @@ ____
 **Cons:** privacy, need to be sure that all data reach cloud, connectivity between Hospital and Cloud, can affect perfomance for Medical Staff (not affect Nurses).
 
 ## Decision
+TODO
+
+## Concequences
+TODO
