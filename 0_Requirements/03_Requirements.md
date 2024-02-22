@@ -91,33 +91,27 @@ Non functional requirements are derived from functional requirements and busines
 
 ## Actors
 
-| Actor                     | Description                                                                                                  | Use Case Reference  |
-|---------------------------|--------------------------------------------------------------------------------------------------------------|---------------------|
-| Patient                   | Produce metrics via monitoring device trips.                                                                 | no system use cases |
-| Medical Staff             | Including Nurses.                                                                                            |                     |
-| Medical Professionals     | Including doctors.                                                                                           |                     |
-| Administrator             | Dedicated role in Medical Professionals/Staff or external employer, who responsible for configuration system |                     |
-| Patient-monitoring Device | System Actor Patient-monitoring Device to deliver vital sign.                                                |                     |
-| MyMedicalData             | System Actor MyMedicalData is a comprehensive cloud-based patient medical records                            |                     |
-| System                    | Some activities are initiated by the system internally.                                                      |                     |
-
 ### Patient
+
+Produce metrics via monitoring device 
 
 ![Patient](./../images/actor-patient.drawio.png "Patient")
 
 ### Medical Staff and Medical Professionals
 
+Including Nurses and Doctors.
+
 ![Medical Staff and Medical Professionals](./../images/actor-medicals.drawio.png "Medical Staff and Medical Professionals")
 
 ### Administrator
 
+Dedicated role in Medical Professionals/Staff or external employer, who responsible for configuration system
+
 ![Administrator](./../images/actor-admin.drawio.png "Administrator")
 
-### Patient-monitoring Device
-
-![Patient-monitoring Device](./../images/actor-monitoring-device.drawio.png "Patient-monitoring Device")
-
 ### MyMedicalData
+
+System Actor MyMedicalData is a comprehensive cloud-based patient medical records
 
 ![MyMedicalData](./../images/actor-my-medical-data.drawio.png "MyMedicalData")
 
@@ -125,16 +119,16 @@ Non functional requirements are derived from functional requirements and busines
 
 | #                       | Use Case                               | Short Description                                                                        | Actor                                        | Requirement |
 |-------------------------|----------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------|-------------|
-| <a name="UC01"></a>UC01 | Login into system                      | User logs in into the system.                                                            | [Medical Staff / Medical Professionals](#medical-staff-and-medical-professionals)       |             |
+| <a name="UC01"></a>UC01 | Login into system                      | User logs in into the system.                                                            | [Medical Staff/Professionals](#medical-staff-and-medical-professionals)       |             |
 | <a name="UC02"></a>UC02 | Register Medical staff in system       | Registers Medical Staff and Medical Professionals in system.                             | [Administrator](#administrator)                                |             |
 | <a name="UC03"></a>UC03 | Assign access roles to Medical staff   | Assign access roles to Medical staff in the system.                                      | [Administrator](#administrator)                                |             |
 | <a name="UC04"></a>UC04 | Mapping Devices                        | Configure system by adding new devices and mapping them to "patient bed" and Nurses      | [Administrator](#administrator)                                |             |
-| <a name="UC05"></a>UC05 | Register Patient in system             | Registers Patient and assign him to "bed" and to Doctor                                  | [Medical Staff](#medical-staff-and-medical-professionals)                                |             |
+| <a name="UC05"></a>UC05 | Register Patient in system             | Registers Patient and assign him to "bed" and to Doctor                                  | [Medical Staff/Professionals](#medical-staff-and-medical-professionals)                                |             |
 | <a name="UC06"></a>UC06 | Collect vital sign                     | System collect vital signs from patient-monitoring devices.                              | [Patient-monitoring Device](#patient)             |             |
-| <a name="UC07"></a>UC07 | Monitor patient vital status           | Nurse able to monitor all vital signs from patients                                      | [Medical Staff](#medical-staff-and-medical-professionals), [Patient](#patient)                       |             |
+| <a name="UC07"></a>UC07 | Monitor patient vital status           | Nurse able to monitor all vital signs from patients                                      | [Medical Staff/Professionals](#medical-staff-and-medical-professionals), [Patient](#patient)                       |             |
 | <a name="UC08"></a>UC08 | Configure Thresholds                   | Configure thresholds for different types on vital sign (also interdependent signs)       | [Administrator](#administrator)                                |             |
-| <a name="UC09"></a>UC09 | Receive Alert notification             | Medical Staff receive notification if any thresholds achieved                            | [Medical Professionals](#medical-staff-and-medical-professionals)                |             |
-| <a name="UC10"></a>UC10 | Generate vital sings snapshot          | Medical Professionals configure snapshot of data and data stored in MyMedicalData system | [Medical Professionals](#medical-staff-and-medical-professionals), MyMedicalData |             |
-| <a name="UC11"></a>UC11 | Analyse historical vital data          | Medical Professionals can view, filter vital sign history in frame of 24h                | [Medical Professionals](#medical-staff-and-medical-professionals)                        |             |
+| <a name="UC09"></a>UC09 | Receive Alert notification             | Medical Staff receive notification if any thresholds achieved                            | [Medical Staff/Professionals](#medical-staff-and-medical-professionals)                |             |
+| <a name="UC10"></a>UC10 | Generate vital sings snapshot          | Medical Professionals configure snapshot of data and data stored in MyMedicalData system | [Medical Staff/Professionals](#medical-staff-and-medical-professionals), [MyMedicalData](#mymedicaldata) |             |
+| <a name="UC11"></a>UC11 | Analyse historical vital data          | Medical Professionals can view, filter vital sign history in frame of 24h                | [Medical Staff/Professionals](#medical-staff-and-medical-professionals)                        |             |
 | <a name="UC12"></a>UC12 | Managing Hospitals/MonitorMe Instances | StayHealthy technical staff able to provision new Hospital/MonitorMe instance            | [Administrator](#administrator)                                |             |
-| <a name="UC13"></a>UC13 | Discharge patient                      | Unassign patient from "bed" and from Doctor                                              | [Medical Staff](#medical-staff-and-medical-professionals)                                |             |
+| <a name="UC13"></a>UC13 | Discharge patient                      | Unassign patient from "bed" and from Doctor                                              | [Medical Staff/Professionals](#medical-staff-and-medical-professionals)                                |             |
