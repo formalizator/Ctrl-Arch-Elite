@@ -14,7 +14,7 @@ there [Problem Description document](01_Problem_description.md).
 | <a name="FR5"></a>FR5   | Review of vital signs history is possible, filtering on time range as well as vital sign<sup>[[DESC6]](./01_Problem_description.md#DESC61)</sup>                      |
 | <a name="FR6"></a>FR6   | System analyzes each patient’s vital signs<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>                                                                    |
 | <a name="FR7"></a>FR7   | Send alert in case of any vital sign value is out of regular range<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>                                            |
-| <a name="FR8"></a>FR8   | Regular range value (alert thresholds) depends on patient sleep stat<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>e                                         |
+| <a name="FR8"></a>FR8   | Regular range value (alert thresholds) depends on patient sleep state<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>                                         |
 | <a name="FR9"></a>FR9   | Alerts received on mobile app and displayed on monitoring screen as well<sup>[[DESC10]](./01_Problem_description.md#DESC10)</sup>                                      |
 | <a name="FR10"></a>FR10 | Generate holistic snapshots from a patients consolidated vital signs at any time<sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>                             |
 | <a name="FR11"></a>FR11 | Upload the patient snapshot to MyMedicalData<sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>                                                                  |
