@@ -1,5 +1,7 @@
 # Input given in scope of an Architectural Kata 2024 Winter - "MonitorMe"
 
+*This document is based on the presented view ov [the raw slides](./00_Problem_raw.md).*
+
 # **MonitorMe**
 
 ![**MonitorMe** logo](../images/logo.png)
