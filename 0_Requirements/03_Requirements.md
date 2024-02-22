@@ -132,11 +132,7 @@ Non functional requirements are derived from functional requiremetns and busiens
 
 <img src="../images/actor-patient.drawio.png">
 
-## Medical Staff
-
-<img src="../images/actor-medicals.drawio.png">
-
-## Medical Professionals
+## Medical Staff and Medical Professionals
 
 <img src="../images/actor-medicals.drawio.png">
 
