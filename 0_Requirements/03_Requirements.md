@@ -14,9 +14,9 @@ there [Problem Description document](01_Problem_description.md).
 | <a name="FR5"></a>FR5   | Review of vital signs history is possible, filtering on time range as well as vital sign<sup>[[DESC6]](./01_Problem_description.md#DESC61)</sup>                      |
 | <a name="FR6"></a>FR6   | System analyzes each patient’s vital signs<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>                                                                    |
 | <a name="FR7"></a>FR7   | Send alert in case of any vital sign value is out of regular range<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>                                            |
-| <a name="FR8"></a>FR8   | Regular range value (alert thresholds) depends on patient sleep state<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup>                                         |
+| <a name="FR8"></a>FR8   | Regular range value (alert thresholds) depends on patient sleep state<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup><sup>[[DESC8]](./01_Problem_description.md#DESC8)</sup>                                         |
 | <a name="FR9"></a>FR9   | Alerts received on mobile app and displayed on monitoring screen as well<sup>[[DESC10]](./01_Problem_description.md#DESC10)</sup>                                      |
-| <a name="FR10"></a>FR10 | Generate holistic snapshots from a patients consolidated vital signs at any time<sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>                             |
+| <a name="FR10"></a>FR10 | Generate holistic snapshots from a patients consolidated vital signs at any time<sup>[[DESC12]](./01_Problem_description.md#DESC12)</sup>                             |
 | <a name="FR11"></a>FR11 | Upload the patient snapshot to MyMedicalData<sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>                                                                  |
 
 ### Device list
@@ -39,7 +39,7 @@ Non functional requirements are derived from functional requirements and busines
 ### Robustness/Fault tolerance
 
 * <a name="NFR1"></a>[NFR1] System should continue to collect and display data regardless on any particular device
-  availability.<sup>[[DESC11]](./01_Problem_description.md#DESC11)</sup>
+  availability.<sup>[[DESC11]](./01_Problem_description.md#DESC11)</sup><sup>[[DESC26]](./01_Problem_description.md#DESC26)</sup>
 
 ### Reliability
 
@@ -61,13 +61,38 @@ Non functional requirements are derived from functional requirements and busines
 ### Evolvability
 
 * <a name="NFR7"></a>[NFR7] System should be prepared to add new type of Patient-monitoring Device should be efficient
-  in terms of cost and time
-* <a name="NFR8"></a>[NFR8] System should be prepared to add/delete new functionality as we expect a lot of changes.<sup>[[DESC25]](./01_Problem_description.md#DESC25)</sup>
+  in terms of cost and time<sup>[[DESC25]](./01_Problem_description.md#DESC25)</sup>
+* <a name="NFR8"></a>[NFR8] System should be prepared to add/delete new functionality as we expect a lot of changes.<sup>[[DESC27]](./01_Problem_description.md#DESC27)</sup>
 
 ### Security/Privacy
 
 * <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to<sup>[[DESC28]](./01_Problem_description.md#DESC28)</sup>
 * <a name="NFR9"></a>[NFR10] All raw data from all monitoring devices is stored in the system<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup><sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>
+
+## Requirements matrix
+
+| FR/TR         | Availability | [Scalability](#scalabilityelasticity) | [Performance](#perfomance) | Consistency | Cost | [Evolvability](#evolvability) | Usability | [Reliability](#reliability) | [Robustness](#robustnessfault-tolerance) | [Security](#securityprivacy) |
+|---------------|--------------|-------------|-------------|-------------|------|--------------|-----------|-------------|------------|----------|
+| [FR1](#FR1)   |              |             |             |             |      |              |           |             |            |          |
+| [FR2](#FR2)   |              |             |             |             |      |              |           |             |            |          |
+| [FR3](#FR3)   |              |             |             |             |      |              |           |             |            |          |
+| [FR4](#FR4)   |              |             |             |             |      |              |           |             |            |          |
+| [FR5](#FR5)   |              |             |             |             |      |              |           |             |            |          |
+| [FR6](#FR6)   |              |             |             |             |      |              |           |             |            |          |
+| [FR7](#FR7)   |              |             |             |             |      |              |           |             |            |          |
+| [FR8](#FR8)   |              |             |             |             |      |              |           |             |            |          |
+| [FR9](#FR9)   |              |             |             |             |      |              |           |             |            |          |
+| [FR10](#FR10) |              |             |             |             |      |              |           |             |            |          |
+| [FR11](#FR11) |              |             |             |             |      |              |           |             |            |          |
+| [NFR1](#FR1)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR2](#FR2)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR3](#FR3)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR4](#FR4)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR5](#FR5)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR6](#FR6)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR7](#FR7)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR8](#FR8)  |              |             |             |             |      |              |           |             |            |          |
+| [NFR9](#FR9)  |              |             |             |             |      |              |           |             |            |          |
 
 ## Architecture Characteristics
 
