@@ -4,7 +4,6 @@ The following are high-level architecture principles that we shall apply to the 
 
 | Principle     |Rationale         | Impact    |
 | ------------ | ----------------- |  -------------- |
-| Наш архитектурный стиль| ссылка на ADR |
 | Data is important| Our system data oriented and this data is important for Patient Health | Soltions must consider realibility and consistency as main priorites.
 | Security in | Our system operate sensitive and personal data | Any requiremetns to systems should be started from security analyes in order to identify which data and whom will be available
 | Compliant with law and regulation | System will be used in Hospitals | Related Regualtions should be taken as must have requirements even in very first release.

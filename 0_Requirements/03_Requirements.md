@@ -69,26 +69,6 @@ Non functional requirements are derived from functional requirements and busines
 * <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to<sup>[[DESC28]](./01_Problem_description.md#DESC28)</sup>
 * <a name="NFR9"></a>[NFR10] All raw data from all monitoring devices is stored in the system<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup><sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>
 
-## Architecture Characteristics
-
-| Top 3 | # | Driving Characteristics |
-|-------|---|-------------------------|
-| x     | 1 | Availability            |
-|       | 2 | Consistency             |
-| x     | 3 | Evolvability            |
-|       | 5 | Reliability             |
-| x     | 6 | Robustness              |
-|       | 7 | Security                |
-
-| # | Implicit Characteristics |
-|---|--------------------------|
-| 1 | Usability                |
-| 2 | Simplicity               |
-
-| # | Others considered |
-|---|-------------------|
-| 1 | Cost              |
-
 ## Actors
 
 |  Name  |  Description |  Usecases |

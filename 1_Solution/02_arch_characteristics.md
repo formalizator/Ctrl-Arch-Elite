@@ -1,8 +1,19 @@
-# Overall architectural characteristics
+# Architecture Characteristics
 
-тут отметим какие характирстики в какой мере влияют на решение в целом
+| Top 3 | # | Driving Characteristics |
+|-------|---|-------------------------|
+| x     | 1 | Availability            |
+|       | 2 | Consistency             |
+| x     | 3 | Evolvability            |
+|       | 5 | Reliability             |
+| x     | 6 | Robustness              |
+|       | 7 | Security                |
 
+| # | Implicit Characteristics |
+|---|--------------------------|
+| 1 | Usability                |
+| 2 | Simplicity               |
 
-# Domain/module specific architectural characteristics
-
-тут можно сделать таблицу о то какие характиеристикие важны для каждого специфичного компонента
+| # | Others considered |
+|---|-------------------|
+| 1 | Cost              |
