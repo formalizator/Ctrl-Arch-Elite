@@ -65,10 +65,29 @@ Use time-series databases, that are specifically designed for handling time-stam
 * **Pros:** optimized for time-series data, efficient storage and compression, high write throughput, time-ordered data retention, support for time-based queries
 * **Cons:** suboptimal for non-time-series data, scalability challenges
 
+#### InfluxDB
+
+* **Pros:** designed specifically for time-series data. It has a user-friendly query language (InfluxQL). It offers high scalability and clustering capabilities.
+* **Cons:** may require more resources (CPU, memory, disk) compared to TimescaleDB.
+
+#### TimescaleDB
+
+* **Pros:** is an extension of PostgreSQL, offering the familiarity of SQL for querying time-series data. It provides excellent scalability and performance, especially for analytical workloads. TimescaleDB is known for its data integrity features, making it suitable for IoT applications where data accuracy is crucial.
+* **Cons:** offers strong SQL support, but may not be as optimized for certain real-time use cases compared to InfluxDB.
+
+### Option 4: Apache Kafka
+
+* **Pros:** a distributed event streaming platform, widely used for real-time data processing, offers high scalability, fault tolerance.
+* **Cons:** requires additional components and configurations to function as a time-series database, which may add complexity to the setup, and may not offer the needed level of historical querying features.
+
 ## Decision
 
 Taking into account all requirements, especially the possibility of high increase of the gathered data, we consider usage of a **Time-Series Database**. 
 
+Among Time-Series Databases, InfluxDB looks a good solution, but some experiments may be needed.
+
 ## Consequences
 
-TODO
+- Solution with a separate DB improves availability and robustness of the system
+- Time-Series Database improves evolvability of the system
+- There may be associated costs with maintenance and support

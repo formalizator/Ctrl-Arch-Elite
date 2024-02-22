@@ -6,7 +6,7 @@
 - [ADR 4 IAM system](./ADR04%20IAM%20system.md)
 - [ADR 5 Role based access](./ADR05%20Role%20based%20access.md)
 - [ADR 6 Application architecture](./ADR06%20Application%20architecture.md)
-- [ADR 7 Database for processing](./ADR07%20Database%20for%20processing.md)
+- [ADR07 System database](./ADR07%20System%20database.md)
 - [ADR 8 Database for raw data](./ADR08%20Database%20for%20raw%20data.md)
 - [ADR 9 Monitoring screen](./ADR09%20Monitoring%20screen.md)
 - [ADR 10 Nurse station](./ADR10%20Nurse%20station.md)
