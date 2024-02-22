@@ -34,26 +34,24 @@ Each patient monitoring device transmits vital sign readings at a different rate
 
 ## Non-functional Requirements
 
-Non functional requirements are derived from functional requiremetns and busienss context.
+Non functional requirements are derived from functional requirements and business context.
 
 ### Robustness/Fault tolerance
 
-* <a name="NFR1"></a>[NFR1] System should continue to collect and display data withregardless on any particular device
+* <a name="NFR1"></a>[NFR1] System should continue to collect and display data regardless on any particular device
   availability.
 
 ### Reliability
 
 * <a name="NFR2"></a>[NFR2] Monitoring data should not be corrupted by the system during processing and should have
-  precise cohesion to
-  the coupled data managed by other system
+  precise cohesion to the coupled data managed by other system
 
 ### Scalability/Elasticity
 
 * <a name="NFR3"></a>[NFR3] There is a maximum of 20 patients per nurses station.
 * <a name="NFR4"></a>[NFR4] Maximum number of patients per physical MonitorMe instance: 500
 * <a name="NFR5"></a>[NFR5] The system should be elastic when adding/removing new hospitals. (Change data volume,
-  traffic and computing
-  units)
+  traffic and computing units)
 
 ### Perfomance
 
@@ -63,13 +61,13 @@ Non functional requirements are derived from functional requiremetns and busiens
 ### Evolvability
 
 * <a name="NFR7"></a>[NFR7] System should be prepared to add new type of Patient-monitoring Device should be efficient
-  in terms of cost
-  and time
+  in terms of cost and time
 * <a name="NFR8"></a>[NFR8] System should be prepared to add/delete new functionality as we expect a lot of changes.
 
 ### Security/Privacy
 
 * <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to
+* <a name="NFR9"></a>[NFR10] All raw data from all monitoring devices is stored in the system
 
 ## Requirements matrix
 

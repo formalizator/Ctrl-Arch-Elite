@@ -20,5 +20,5 @@ description of the problem and alternative solutions available (documentation)
 
 decision and justification (the “why”)
 
-## Concequences
+## Consequences
 trade-offs and impact of decision
