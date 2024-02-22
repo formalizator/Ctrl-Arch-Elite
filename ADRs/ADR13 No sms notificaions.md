@@ -14,11 +14,13 @@
 ## Context
 
 Based on list of all functional and non-functional [requirements](../0_Requirements/03_Requirements.md), there is no requests for SMS notifications.
+For mobile devices, push notifications are requested.
+We should also provide cost-optimised solution.
 
 ## Decision
 
-No SMS notifications are configured in the first release of the system.
+SMS notifications are not needed in the system. 
 
 ## Consequences
 
-TODO
+Some of the notifications might be delivered with delay in case of bad hospital network connection or push-gateway delays.

@@ -14,11 +14,13 @@
 ## Context
 
 Based on list of all functional and non-functional [requirements](../0_Requirements/03_Requirements.md), there is no requests for e-mail notifications.
+All interactions with user login and reporting are outside the scope of current system.
 
 ## Decision
 
-No e-mail notifications are configured in the first release of the system.
+E-mail notifications are not needed in the system.
 
 ## Consequences
-
-TODO
+- No option for mail communication with the customer
+- Lower maintenance efforts
+- In case of the system extension, additional firewall clearance and components need to be designed.

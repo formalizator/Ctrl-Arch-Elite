@@ -7,9 +7,9 @@
 **Stakeholders**
 
 - [x] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 
