@@ -3,7 +3,6 @@
 Functional requirements are derived from input given by the stakeholders documented
 there [Problem Description document](01_Problem_description.md).
 
-[anchor](#UC01)
 
 | #    | Requirement                                                                              |
 |------|------------------------------------------------------------------------------------------|
@@ -148,4 +147,4 @@ Non functional requirements are derived from functional requiremetns and busiens
 | <a name="UC13"></a>UC13 | Discharge patient                      | Unassign patient from "bed" and from Doctor                                              | Medical Staff                         |             |
 
 
-[anchor](#FR1)
+
