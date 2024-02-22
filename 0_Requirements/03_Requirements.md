@@ -5,19 +5,19 @@
 Functional requirements are derived from input given by the stakeholders documented
 there [Problem Description document](01_Problem_description.md).
 
-| #                       | Requirement                                                                              |
-|-------------------------|------------------------------------------------------------------------------------------|
-| <a name="FR1"></a>FR1   | Collect data from monitoring devices. See [Device list](#device-list).                   |
-| <a name="FR2"></a>FR2   | Display data from monitoring devices on monitoring screen per nurse station              |
-| <a name="FR3"></a>FR3   | Display data rotating between patients every 5 seconds<sup>[[DESC5]](./01_Problem_description.md#DESC5)</sup>                                   |
-| <a name="FR4"></a>FR4   | Monitoring data should be available during last 24 hours for the review                  |
-| <a name="FR5"></a>FR5   | Review of vital signs history is possible, filtering on time range as well as vital sign |
-| <a name="FR6"></a>FR6   | System analyzes each patient’s vital signs                                               |
-| <a name="FR7"></a>FR7   | Send alert in case of any vital sign value is out of regular range                       |
-| <a name="FR8"></a>FR8   | Regular range value (alert thresholds) depends on patient sleep state                    |
-| <a name="FR9"></a>FR9   | Alerts received on mobile app and displayed on monitoring screen as well                 |
-| <a name="FR10"></a>FR10 | Generate holistic snapshots from a patients consolidated vital signs at any time         |
-| <a name="FR11"></a>FR11 | Upload the patient snapshot to MyMedicalData                                             |
+| #                       | Requirement                                                                                                   |
+|-------------------------|---------------------------------------------------------------------------------------------------------------|
+| <a name="FR1"></a>FR1   | Collect data from monitoring devices. See [Device list](#device-list).                                        |
+| <a name="FR2"></a>FR2   | Display data from monitoring devices on monitoring screen per nurse station                                   |
+| <a name="FR3"></a>FR3   | Display data rotating between patients every 5 seconds<sup>[[DESC5]](./01_Problem_description.md#DESC5)</sup> |
+| <a name="FR4"></a>FR4   | Monitoring data should be available during last 24 hours for the review                                       |
+| <a name="FR5"></a>FR5   | Review of vital signs history is possible, filtering on time range as well as vital sign                      |
+| <a name="FR6"></a>FR6   | System analyzes each patient’s vital signs                                                                    |
+| <a name="FR7"></a>FR7   | Send alert in case of any vital sign value is out of regular range                                            |
+| <a name="FR8"></a>FR8   | Regular range value (alert thresholds) depends on patient sleep state                                         |
+| <a name="FR9"></a>FR9   | Alerts received on mobile app and displayed on monitoring screen as well                                      |
+| <a name="FR10"></a>FR10 | Generate holistic snapshots from a patients consolidated vital signs at any time                              |
+| <a name="FR11"></a>FR11 | Upload the patient snapshot to MyMedicalData                                                                  |
 
 ### Device list
 
@@ -116,7 +116,6 @@ Non functional requirements are derived from functional requirements and busines
 
 ## Actors
 
-
 | Actor                     | Description                                                                                                  | Use Case Reference  |
 |---------------------------|--------------------------------------------------------------------------------------------------------------|---------------------|
 | Patient                   | Produce metrics via monitoring device trips.                                                                 | no system use cases |
@@ -151,16 +150,16 @@ Non functional requirements are derived from functional requirements and busines
 
 | #                       | Use Case                               | Short Description                                                                        | Actor                                        | Requirement |
 |-------------------------|----------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------|-------------|
-| <a name="UC01"></a>UC01 | Login into system                      | User logs in into the system.                                                            | Medical Staff / Medical Professionals        |             |
-| <a name="UC02"></a>UC02 | Register Medical staff in system       | Registers Medical Staff and Medical Professionals in system.                             | Administrator                                |             |
-| <a name="UC03"></a>UC03 | Assign access roles to Medical staff   | Assign access roles to Medical staff in the system.                                      | Administrator                                |             |
-| <a name="UC04"></a>UC04 | Mapping Devices                        | Configure system by adding new devices and mapping them to "patient bed" and Nurses      | Administrator                                |             |
-| <a name="UC05"></a>UC05 | Register Patient in system             | Registers Patient and assign him to "bed" and to Doctor                                  | Medical Staff                                |             |
-| <a name="UC06"></a>UC06 | Collect vital sign                     | System collect vital signs from patient-monitoring devices.                              | System, Patient-monitoring Device            |             |
-| <a name="UC07"></a>UC07 | Monitor patient vital status           | Nurse able to monitor all vital signs from patients                                      | Medical Staff, Patient                       |             |
-| <a name="UC08"></a>UC08 | Configure Thresholds                   | Configure thresholds for different types on vital sign (also interdependent signs)       | Administrator                                |             |
-| <a name="UC09"></a>UC09 | Receive Alert notification             | Medical Staff receive notification if any thresholds achieved                            | System, Medical Professionals                |             |
-| <a name="UC10"></a>UC10 | Generate vital sings snapshot          | Medical Professionals configure snapshot of data and data stored in MyMedicalData system | Medical Professionals, System, MyMedicalData |             |
-| <a name="UC11"></a>UC11 | Analyse historical vital data          | Medical Professionals can view, filter vital sign history in frame of 24h                | Medical Professionals                        |             |
-| <a name="UC12"></a>UC12 | Managing Hospitals/MonitorMe Instances | StayHealthy technical staff able to provision new Hospital/MonitorMe instance            | Administrator                                |             |
-| <a name="UC13"></a>UC13 | Discharge patient                      | Unassign patient from "bed" and from Doctor                                              | Medical Staff                                |             |
+| <a name="UC01"></a>UC01 | Login into system                      | User logs in into the system.                                                            | [Medical Staff / Medical Professionals](#medical-staff-and-medical-professionals)       |             |
+| <a name="UC02"></a>UC02 | Register Medical staff in system       | Registers Medical Staff and Medical Professionals in system.                             | [Administrator](#administrator)                                |             |
+| <a name="UC03"></a>UC03 | Assign access roles to Medical staff   | Assign access roles to Medical staff in the system.                                      | [Administrator](#administrator)                                |             |
+| <a name="UC04"></a>UC04 | Mapping Devices                        | Configure system by adding new devices and mapping them to "patient bed" and Nurses      | [Administrator](#administrator)                                |             |
+| <a name="UC05"></a>UC05 | Register Patient in system             | Registers Patient and assign him to "bed" and to Doctor                                  | [Medical Staff](#medical-staff-and-medical-professionals)                                |             |
+| <a name="UC06"></a>UC06 | Collect vital sign                     | System collect vital signs from patient-monitoring devices.                              | [Patient-monitoring Device](#patient)             |             |
+| <a name="UC07"></a>UC07 | Monitor patient vital status           | Nurse able to monitor all vital signs from patients                                      | [Medical Staff](#medical-staff-and-medical-professionals), [Patient](#patient)                       |             |
+| <a name="UC08"></a>UC08 | Configure Thresholds                   | Configure thresholds for different types on vital sign (also interdependent signs)       | [Administrator](#administrator)                                |             |
+| <a name="UC09"></a>UC09 | Receive Alert notification             | Medical Staff receive notification if any thresholds achieved                            | [Medical Professionals](#medical-staff-and-medical-professionals)                |             |
+| <a name="UC10"></a>UC10 | Generate vital sings snapshot          | Medical Professionals configure snapshot of data and data stored in MyMedicalData system | [Medical Professionals](#medical-staff-and-medical-professionals), MyMedicalData |             |
+| <a name="UC11"></a>UC11 | Analyse historical vital data          | Medical Professionals can view, filter vital sign history in frame of 24h                | [Medical Professionals](#medical-staff-and-medical-professionals)                        |             |
+| <a name="UC12"></a>UC12 | Managing Hospitals/MonitorMe Instances | StayHealthy technical staff able to provision new Hospital/MonitorMe instance            | [Administrator](#administrator)                                |             |
+| <a name="UC13"></a>UC13 | Discharge patient                      | Unassign patient from "bed" and from Doctor                                              | [Medical Staff](#medical-staff-and-medical-professionals)                                |             |
