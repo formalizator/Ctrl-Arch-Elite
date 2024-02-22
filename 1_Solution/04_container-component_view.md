@@ -8,7 +8,7 @@ Container Diagram provides a high-level view of the software architecture, focus
 
 ![Container diagram](./../images/container-diagram.drawio.png "Container diagram")
 
-| Name                                                              | Descripton                                                                                       | Hosting |
+| Name                                                              | Description                                                                                      | Hosting |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|
 | [**MonitorMe Hospital**](#monitorme-hospital---component-diagram) | The heart of our system that is hosted inside of the hospitals.                                  | On-Prem |
 | **Raw Database**                                                  | Database for storage of the raw data.                                                            | On-Prem |
