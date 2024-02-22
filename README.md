@@ -16,6 +16,6 @@ Our architectural description is structured into several chapters. Please utiliz
 * [Requirements](0_Requirements/03_Requirements.md)
 * [Architecture principles](1_Solution/01_arch_priciples.md)
 * [Architecture charaсteristics](1_Solution/02_arch_characteristics.md)
-* [System Context](1_Solution/03_system_context.md)
-* [Deployment View](1_Solution/04_container_view.md)
+* [Context views](1_Solution/03_system_context.md)
+* [Container & Component Views](1_Solution/04_container-component_view.md)
 * [Architecture Decisions](ADRs/Readme.md)
