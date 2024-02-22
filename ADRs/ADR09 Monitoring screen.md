@@ -30,4 +30,6 @@ We can use monitoring screens with browser and web application on each screen fo
 
 ## Consequences
 
-TODO
+- Web applications can be accessed from different operating systems and devices with a web browser, providing flexibility and compatibility across various types of monitoring screens.
+- Developing and maintaining a web-based service is cost-effective compared to building and updating separate native applications.
+- Web-based services can be updated centrally, ensuring all users have access to the latest version simultaneously.

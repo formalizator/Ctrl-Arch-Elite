@@ -23,8 +23,10 @@ we assume that we need to configure up to 25 computer devices on nurse stations 
 
 ## Decision
 
-We can use workstations with browser to access MonitorMe system, as well as other StayHealthy, Inc. systems.
+We can use workstations and web browsers to access MonitorMe system, as well as other StayHealthy, Inc. systems.
 
 ## Consequences
 
-TODO
+- Developing and maintaining a web-based service is cost-effective compared to building and updating separate native applications.
+- Web-based services can be updated centrally, ensuring all users have access to the latest version simultaneously.
+- Browsers can store user data such as browsing history, cookies, and cached files, which may raise concerns about data privacy - admins need to manage their privacy settings.
