@@ -18,7 +18,7 @@ Define approach to the realization of the access management
 Use out-of-the box solution for IAM system
 
 ## Consequences
-Role based access alleviate access management solution by providing: 
+Centralised identity access management solution provides: 
 - centralized user management 
 - authentication mechanism based on user roles
 - provide single sign on across the organization and building unified user experience
