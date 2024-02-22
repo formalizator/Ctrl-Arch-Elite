@@ -27,5 +27,5 @@ From the following options we have to decide which standard fits better to our n
 **IEEE 830** was chosen due to its clarity and transparency in terms of future maintenance (extensibility support), easy mapping to the different use cases.
 
 ## Consequences
-Simple traceability to different levels of the solution abstractions especially in cooperation with C4 notation.
-Straightforward extension of the requirement matrix with newly added requirements with regardless to the solution context level
+- Simple traceability to different levels of the solution abstractions especially in cooperation with C4 notation.
+- Straightforward extension of the requirement matrix with newly added requirements with regardless to the solution context level.

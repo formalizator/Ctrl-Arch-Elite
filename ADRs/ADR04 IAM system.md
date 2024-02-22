@@ -22,5 +22,5 @@ Centralised identity access management solution provides:
 - centralized user management 
 - authentication mechanism based on user roles
 - provide single sign on across the organization and building unified user experience
-- identity federation and single security application point.
-- separating access management logic from other domain business functionality solution.
+- identity federation and single security application point
+- separating access management logic from other domain business functionality solution

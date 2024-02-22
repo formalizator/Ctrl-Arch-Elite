@@ -28,5 +28,5 @@ both mentioned external systems to be considered as a primary actors in relation
 Monitoring devices in the same context to be considered as secondary actors.
 
 ## Consequences
-MonitorME *Provide snapshot* use case has MyMonitoringData system as an actor which accepts monitoring data.
-Monitoring devices in relation to main use case *Collect vital signs* of MonitorMe system plays the role of the secondary actor.
+- MonitorME *Provide snapshot* use case has MyMonitoringData system as an actor which accepts monitoring data.
+- Monitoring devices in relation to main use case *Collect vital signs* of MonitorMe system plays the role of the secondary actor.
