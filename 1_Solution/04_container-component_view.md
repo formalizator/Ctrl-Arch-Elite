@@ -11,8 +11,8 @@ Container Diagram provides a high-level view of the software architecture, focus
 | Name                                                              | Descripton                                                                                       | Hosting |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|
 | [**MonitorMe Hospital**](#monitorme-hospital---component-diagram) | The heart of our system that is hosted inside of the hospitals.                                  | On-Prem |
-| **Raw Database**                                                  | Database for starage of the raw data.                                                            | On-Prem |
-| **Snapshot Database**                                             | Database for starage of the current state that is consumed by Medical staff.                     | On-Prem |
+| **Raw Database**                                                  | Database for storage of the raw data.                                                            | On-Prem |
+| **Snapshot Database**                                             | Database for storage of the current state that is consumed by Medical staff.                     | On-Prem |
 | **MonitorMe MobileNotify**                                        | Central push-gateway for all of the hospitals. Main functionality - distribute the notification. | Cloud   |
 
 ## MonitorMe Hospital - Component diagram

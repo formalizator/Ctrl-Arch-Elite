@@ -21,7 +21,7 @@ In consideration of the following requirements:
 - **[FR9]** - Alerts received on mobile app and displayed on monitoring screen as well
 - **[FR10]** - Generate holistic snapshots from a patients consolidated vital signs at any time
 
-We assume that patient management is needed in the system.
+We assume that patient management is needed in the system as well as storage of the current state that is consumed by Medical staff.
 
 ## Decision
 
