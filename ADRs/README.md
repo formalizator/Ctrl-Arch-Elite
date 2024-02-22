@@ -1,0 +1,16 @@
+## ArchitectureDecisions
+
+- [ADR 1 Numering requirements](./ADR01%20Numering%20requirement.md)
+- [ADR 2 Partner system as actors](./ADR02%20Partner%20system%20as%20actors.md)
+- [ADR 3 Merge staff and professionals](ADR03%20Merge%20staff%20and%20professionals/todo.md)
+- [ADR 4 IAM system](./ADR04%20IAM%20system.md)
+- [ADR 5 Role based access](./ADR05%20Role%20based%20access.md)
+- [ADR 6 Application architecture](./ADR06%20Application%20architecture.md)
+- [ADR 7 Database for processing](./ADR07%20Database%20for%20processing.md)
+- [ADR 8 Database for raw data](./ADR08%20Database%20for%20raw%20data.md)
+- [ADR 9 Monitoring screen](./ADR09%20Monitoring%20screen.md)
+- [ADR 10 Nurse station](./ADR10%20Nurse%20station.md)
+- [ADR 11 Administrator access](./ADR11%20Administrator%20access.md)
+- [ADR 12 No email notifications](./ADR12%20No%20email%20notifications.md)
+- [ADR 13 No sms notificaions](./ADR13%20No%20sms%20notificaions.md)
+- [ADR 14 Mobile push notifications](./ADR14%20Mobile%20push%20notifications.md)

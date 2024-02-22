@@ -13,5 +13,3 @@ Container that deployed to the Hospital infrastructure locally consists of sever
 They have strict functionality assignment and can be decomposed in separate containers in future for scaling purposes.
 
 ![Component diagram](./../images/component-diagram-monitorme-hospital.drawio.png "Component diagram")
-
-[](#monitorme-hospital---component-diagram)
