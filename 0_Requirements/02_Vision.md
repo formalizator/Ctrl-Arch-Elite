@@ -10,7 +10,6 @@ data to enhance patient care and operational efficiency.
 
 *MyMedicalData* is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records with guaranteed partitioning between patient records.
 
-
 # Goal
 
 In a strategic move to expand its offerings, StayHealthy, Inc. is venturing into the medical monitoring market. The company aims to 

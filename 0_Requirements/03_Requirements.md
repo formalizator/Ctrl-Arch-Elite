@@ -116,7 +116,6 @@ Non functional requirements are derived from functional requirements and busines
 
 ## Actors
 
-надо проверить список акторов, сделать приятное описание, и проставить ссылки на UC (которые описаны в главе ниже)
 
 | Actor                     | Description                                                                                                  | Use Case Reference  |
 |---------------------------|--------------------------------------------------------------------------------------------------------------|---------------------|
@@ -149,9 +148,6 @@ Non functional requirements are derived from functional requirements and busines
 ![MyMedicalData](./../images/actor-my-medical-data.drawio.png "MyMedicalData")
 
 ## Use Cases
-
-надо проверить список сценариев, сделать приятное описание, и проставить ссылки на Акторов (проверить что они совпадают
-с таблицой выше)
 
 | #                       | Use Case                               | Short Description                                                                        | Actor                                        | Requirement |
 |-------------------------|----------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------|-------------|
