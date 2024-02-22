@@ -24,7 +24,7 @@ From the following options we have to decide which standard fits better to our n
 
 
 ## Decision
-**IEEE 830** was chosen due to its clarity and transparency in terms of future maintenance (extensibility support), easy mapping to different the use cases.
+**IEEE 830** was chosen due to its clarity and transparency in terms of future maintenance (extensibility support), easy mapping to the different use cases.
 
 ## Consequences
 Simple traceability to different levels of the solution abstractions especially in cooperation with C4 notation.
