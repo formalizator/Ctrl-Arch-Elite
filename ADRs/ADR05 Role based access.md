@@ -12,13 +12,15 @@
 - [ ] @alkhamov
 
 ## Context
-
-description of the problem and alternative solutions available (documentation)
-**scope**
+Define approach to the system access considering different actors activities
 
 ## Decision
-
-decision and justification (the “why”)
+Role-based access control (RBAC) is chosen to separate the roles of users within the nurse station
 
 ## Consequences
-trade-offs and impact of decision
+Role based access alleviate access management solution, providing: 
+- separated access right management per user
+- easy maintenance of access control policies
+- fine-grained permissions
+- scalability of the roles
+- adaptation to the requirements including security scope
