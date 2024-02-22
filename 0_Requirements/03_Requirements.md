@@ -69,31 +69,6 @@ Non functional requirements are derived from functional requirements and busines
 * <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to<sup>[[DESC28]](./01_Problem_description.md#DESC28)</sup>
 * <a name="NFR9"></a>[NFR10] All raw data from all monitoring devices is stored in the system<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup><sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>
 
-## Requirements matrix
-
-| FR/TR         | Availability | [Scalability](#scalabilityelasticity) | [Performance](#perfomance) | Consistency | Cost | [Evolvability](#evolvability) | Usability | [Reliability](#reliability) | [Robustness](#robustnessfault-tolerance) | [Security](#securityprivacy) |
-|---------------|--------------|-------------|-------------|-------------|------|--------------|-----------|-------------|------------|----------|
-| [FR1](#FR1)   |              |             |             |             |      |              |           |             |            |          |
-| [FR2](#FR2)   |              |             |             |             |      |              |           |             |            |          |
-| [FR3](#FR3)   |              |             |             |             |      |              |           |             |            |          |
-| [FR4](#FR4)   |              |             |             |             |      |              |           |             |            |          |
-| [FR5](#FR5)   |              |             |             |             |      |              |           |             |            |          |
-| [FR6](#FR6)   |              |             |             |             |      |              |           |             |            |          |
-| [FR7](#FR7)   |              |             |             |             |      |              |           |             |            |          |
-| [FR8](#FR8)   |              |             |             |             |      |              |           |             |            |          |
-| [FR9](#FR9)   |              |             |             |             |      |              |           |             |            |          |
-| [FR10](#FR10) |              |             |             |             |      |              |           |             |            |          |
-| [FR11](#FR11) |              |             |             |             |      |              |           |             |            |          |
-| [NFR1](#FR1)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR2](#FR2)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR3](#FR3)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR4](#FR4)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR5](#FR5)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR6](#FR6)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR7](#FR7)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR8](#FR8)  |              |             |             |             |      |              |           |             |            |          |
-| [NFR9](#FR9)  |              |             |             |             |      |              |           |             |            |          |
-
 ## Architecture Characteristics
 
 | Top 3 | # | Driving Characteristics |
