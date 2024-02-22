@@ -74,6 +74,7 @@ Use time-series databases, that are specifically designed for handling time-stam
 
 * **Pros:** is an extension of PostgreSQL, offering the familiarity of SQL for querying time-series data. It provides excellent scalability and performance, especially for analytical workloads. TimescaleDB is known for its data integrity features, making it suitable for IoT applications where data accuracy is crucial.
 * **Cons:** offers strong SQL support, but may not be as optimized for certain real-time use cases compared to InfluxDB.
+____
 
 ### Option 4: Apache Kafka
 
@@ -89,5 +90,5 @@ Among Time-Series Databases, InfluxDB looks a good solution, but some experiment
 ## Consequences
 
 - Solution with a separate DB improves availability and robustness of the system
-- Time-Series Database improves evolvability of the system
+- Using of a time-series database improves evolvability of the system
 - There may be associated costs with maintenance and support
