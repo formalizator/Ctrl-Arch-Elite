@@ -44,7 +44,7 @@ Non functional requirements are derived from functional requirements and busines
 ### Reliability
 
 * <a name="NFR2"></a>[NFR2] Monitoring data should not be corrupted by the system during processing and should have
-  precise cohesion to the coupled data managed by other system
+  precise cohesion to the coupled data managed by other system<sup>[[DESC26]](./01_Problem_description.md#DESC26)</sup>
 
 ### Scalability/Elasticity
 
@@ -62,12 +62,12 @@ Non functional requirements are derived from functional requirements and busines
 
 * <a name="NFR7"></a>[NFR7] System should be prepared to add new type of Patient-monitoring Device should be efficient
   in terms of cost and time
-* <a name="NFR8"></a>[NFR8] System should be prepared to add/delete new functionality as we expect a lot of changes.
+* <a name="NFR8"></a>[NFR8] System should be prepared to add/delete new functionality as we expect a lot of changes.<sup>[[DESC25]](./01_Problem_description.md#DESC25)</sup>
 
 ### Security/Privacy
 
-* <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to
-* <a name="NFR9"></a>[NFR10] All raw data from all monitoring devices is stored in the system
+* <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to<sup>[[DESC28]](./01_Problem_description.md#DESC28)</sup>
+* <a name="NFR9"></a>[NFR10] All raw data from all monitoring devices is stored in the system<sup>[[DESC7]](./01_Problem_description.md#DESC7)</sup><sup>[[DESC22]](./01_Problem_description.md#DESC22)</sup>
 
 ## Requirements matrix
 
