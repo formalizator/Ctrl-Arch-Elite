@@ -12,13 +12,15 @@
 - [ ] @alkhamov
 
 ## Context
-
-description of the problem and alternative solutions available (documentation)
-**scope**
+Define approach to the realization of the access management
 
 ## Decision
-
-decision and justification (the “why”)
+Use out-of-the box solution for IAM system
 
 ## Consequences
-trade-offs and impact of decision
+Role based access alleviate access management solution by providing: 
+- centralized user management 
+- authentication mechanism based on user roles
+- provide single sign on across the organization and building unified user experience
+- identity federation and single security application point.
+- separating access management logic from other domain business functionality solution.
