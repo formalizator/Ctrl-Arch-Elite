@@ -12,11 +12,11 @@
 - [x] @alkhamov
 
 ## Context
-Medical staff and medical professional these two types of actors mentioned separately within the *Business problem* description. Consider the possibility to merge them.
+Medical staff and medical professional these two types of actors mentioned separately within the *Business problem* description. Consider the possibility to merge them. From the *Business problem* statements we have Medical staff who has separate behavior covered by the use case "Provide snapshot" in comparison to the Medical professional who are generalization of "Doctor" and "Nurse" actors.  
 
 ## Decision
-From the *Business problem* statements we have Medical staff who has separate behavior covered by the use case "Provide snapshot" in comparison to the Medical professional who are generalization of "Doctor" and "Nurse" actors.  
-However, due to the decision of applying out-of-the-box IAM system users will be segregated based on predefined authentication privileges.  
+
+Due to the decision of applying out-of-the-box IAM system users will be segregated based on predefined authentication privileges.  
 Therefore to simplify the *System context* diagram the decision is to merge actors.
 
 ## Consequences
