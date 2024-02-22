@@ -9,7 +9,7 @@ there [Problem Description document](01_Problem_description.md).
 |-------------------------|------------------------------------------------------------------------------------------|
 | <a name="FR1"></a>FR1   | Collect data from monitoring devices. See [Device list](#device-list).                   |
 | <a name="FR2"></a>FR2   | Display data from monitoring devices on monitoring screen per nurse station              |
-| <a name="FR3"></a>FR3   | Display data rotating between patients every 5 seconds                                   |
+| <a name="FR3"></a>FR3   | Display data rotating between patients every 5 seconds<sup>[[DESC5]](./01_Problem_description.md#DESC5)</sup>                                   |
 | <a name="FR4"></a>FR4   | Monitoring data should be available during last 24 hours for the review                  |
 | <a name="FR5"></a>FR5   | Review of vital signs history is possible, filtering on time range as well as vital sign |
 | <a name="FR6"></a>FR6   | System analyzes each patient’s vital signs                                               |
@@ -39,7 +39,7 @@ Non functional requirements are derived from functional requirements and busines
 ### Robustness/Fault tolerance
 
 * <a name="NFR1"></a>[NFR1] System should continue to collect and display data regardless on any particular device
-  availability.
+  availability.<sup>[[DESC11]](./01_Problem_description.md#DESC11)</sup>
 
 ### Reliability
 
@@ -56,7 +56,7 @@ Non functional requirements are derived from functional requirements and busines
 ### Perfomance
 
 * <a name="NFR6"></a>[NFR6]  Monitoring device data should be available for visualisation or alerting within less than 1
-  second.
+  second.<sup>[[DESC5]](./01_Problem_description.md#DESC5)</sup>
 
 ### Evolvability
 
