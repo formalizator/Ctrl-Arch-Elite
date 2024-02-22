@@ -1,4 +1,6 @@
-# Functional Requirements
+# Requirements decomposition
+
+## Functional Requirements
 
 Functional requirements are derived from input given by the stakeholders documented
 there [Problem Description document](01_Problem_description.md).
@@ -17,7 +19,7 @@ there [Problem Description document](01_Problem_description.md).
 | <a name="FR10"></a>FR10 | Generate holistic snapshots from a patients consolidated vital signs at any time         |
 | <a name="FR11"></a>FR11 | Upload the patient snapshot to MyMedicalData                                             |
 
-## Device list
+### Device list
 
 Each patient monitoring device transmits vital sign readings at a different rate:
 
@@ -30,22 +32,22 @@ Each patient monitoring device transmits vital sign readings at a different rate
 * Body temperature: every 5 minutes
 * Sleep status: every 2 minutes
 
-# Non-functional Requirements
+## Non-functional Requirements
 
 Non functional requirements are derived from functional requiremetns and busienss context.
 
-### Robustness/Fault tolerance
+#### Robustness/Fault tolerance
 
 * <a name="NFR1"></a>[NFR1] System should continue to collect and display data withregardless on any particular device
   availability.
 
-### Reliability
+#### Reliability
 
 * <a name="NFR2"></a>[NFR2] Monitoring data should not be corrupted by the system during processing and should have
   precise cohesion to
   the coupled data managed by other system
 
-### Scalability/Elasticity
+#### Scalability/Elasticity
 
 * <a name="NFR3"></a>[NFR3] There is a maximum of 20 patients per nurses station.
 * <a name="NFR4"></a>[NFR4] Maximum number of patients per physical MonitorMe instance: 500
@@ -53,23 +55,23 @@ Non functional requirements are derived from functional requiremetns and busiens
   traffic and computing
   units)
 
-### Perfomance
+#### Perfomance
 
 * <a name="NFR6"></a>[NFR6]  Monitoring device data should be available for visualisation or alerting within less than 1
   second.
 
-### Evolvability
+#### Evolvability
 
 * <a name="NFR7"></a>[NFR7] System should be prepared to add new type of Patient-monitoring Device should be efficient
   in terms of cost
   and time
 * <a name="NFR8"></a>[NFR8] System should be prepared to add/delete new functionality as we expect a lot of changes.
 
-### Security/Privacy
+#### Security/Privacy
 
 * <a name="NFR9"></a>[NFR9] Patient related data should not be available for the audience which it is not intended to
 
-## Requirements matrix
+### Requirements matrix
 
 | FR/TR         | Availability | Scalability | Performance | Consistency | Cost | Evolvability | Usability | Reliability | Robustness | Security |
 |---------------|--------------|-------------|-------------|-------------|------|--------------|-----------|-------------|------------|----------|
@@ -94,9 +96,9 @@ Non functional requirements are derived from functional requiremetns and busiens
 | [NFR8](#FR8)  |              |             |             |             |      |              |           |             |            |          |
 | [NFR9](#FR9)  |              |             |             |             |      |              |           |             |            |          |
 
-# Architecture Characteristics
+## Architecture Characteristics
 
-| Top 3 | # | Driving Characteristics | 
+| Top 3 | # | Driving Characteristics |
 |-------|---|-------------------------|
 | x     | 1 | Availability            |
 |       | 2 | Consistency             |
@@ -114,7 +116,7 @@ Non functional requirements are derived from functional requiremetns and busiens
 |---|-------------------|
 | 1 | Cost              |
 
-# Actors
+## Actors
 
 надо проверить список акторов, сделать приятное описание, и проставить ссылки на UC (которые описаны в главе ниже)
 
@@ -123,32 +125,32 @@ Non functional requirements are derived from functional requiremetns and busiens
 | Patient                   | Produce metrics via monitoring device trips.                                                                 | no system use cases |
 | Medical Staff             | Including Nurses.                                                                                            |                     |
 | Medical Professionals     | Including doctors.                                                                                           |                     |
-| Administrator             | Dedicated role in Medical Professionals/Staff or external employer, who responsible for configuration system |                     | 
+| Administrator             | Dedicated role in Medical Professionals/Staff or external employer, who responsible for configuration system |                     |
 | Patient-monitoring Device | System Actor Patient-monitoring Device to deliver vital sign.                                                |                     |
 | MyMedicalData             | System Actor MyMedicalData is a comprehensive cloud-based patient medical records                            |                     |
 | System                    | Some activities are initiated by the system internally.                                                      |                     |
 
-## Patient
+### Patient
 
-<img src="../images/actor-patient.drawio.png">
+![Patient](./../images/actor-patient.drawio.png "Patient")
 
-## Medical Staff and Medical Professionals
+### Medical Staff and Medical Professionals
 
-<img src="../images/actor-medicals.drawio.png">
+![Medical Staff and Medical Professionals](./../images/actor-medicals.drawio.png "Medical Staff and Medical Professionals")
 
-## Administrator
+### Administrator
 
-<img src="../images/actor-admin.drawio.png">
+![Administrator](./../images/actor-admin.drawio.png "Administrator")
 
-## Patient-monitoring Device
+### Patient-monitoring Device
 
-<img src="../images/actor-monitoring-device.drawio.png">
+![Patient-monitoring Device](./../images/actor-monitoring-device.drawio.png "Patient-monitoring Device")
 
-## MyMedicalData
+### MyMedicalData
 
-<img src="../images/actor-my-medical-data.drawio.png">
+![MyMedicalData](./../images/actor-my-medical-data.drawio.png "MyMedicalData")
 
-# Use Cases
+## Use Cases
 
 надо проверить список сценариев, сделать приятное описание, и проставить ссылки на Акторов (проверить что они совпадают
 с таблицой выше)
@@ -168,6 +170,3 @@ Non functional requirements are derived from functional requiremetns and busiens
 | <a name="UC11"></a>UC11 | Analyse historical vital data          | Medical Professionals can view, filter vital sign history in frame of 24h                | Medical Professionals                        |             |
 | <a name="UC12"></a>UC12 | Managing Hospitals/MonitorMe Instances | StayHealthy technical staff able to provision new Hospital/MonitorMe instance            | Administrator                                |             |
 | <a name="UC13"></a>UC13 | Discharge patient                      | Unassign patient from "bed" and from Doctor                                              | Medical Staff                                |             |
-
-
-
