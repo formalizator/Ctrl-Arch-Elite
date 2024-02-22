@@ -32,3 +32,5 @@ Our architectural description is structured into several chapters. Please utiliz
 - [@vera-ignateva](https://github.com/vera-ignateva)
 - [@slookin](https://github.com/slookin)
 - [@alkhamov](https://github.com/alkhamov)
+
+We focus on simple-to-consume architectures!
