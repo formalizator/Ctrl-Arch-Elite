@@ -1,12 +1,12 @@
 # ADR07 Database for processing
 
-**Status** : proposed / accepted / superseded
+**Status** : proposed
 
-**Date** : 14.02.2024
+**Date** : 21.02.2024
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
+- [x] @vera-ignateva
 - [ ] @formalizator
 - [ ] @slookin
 - [ ] @alkhamov
