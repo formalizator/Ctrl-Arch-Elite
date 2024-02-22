@@ -18,7 +18,7 @@ Define approach to the system access considering different actors activities
 Role-based access control (RBAC) is chosen to separate the roles of users within the nurse station
 
 ## Consequences
-Role based access alleviate access management solution, providing: 
+Role based access alleviates access management solution by providing: 
 - separated access right management per user
 - easy maintenance of access control policies
 - fine-grained permissions
