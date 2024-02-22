@@ -21,16 +21,16 @@ there [Problem Description document](01_Problem_description.md).
 
 ### Device list
 
-Each patient monitoring device transmits vital sign readings at a different rate:
+Each patient monitoring device transmits vital sign readings at a different rate:<sup>[[DESC13]](./01_Problem_description.md#DESC13)</sup>
 
-* Heart rate: every 500ms
-* Blood pressure: every hour
-* Oxygen level: every 5 seconds
-* Blood sugar: every 2 minutes
-* Respiration: every second
-* ECG: every second
-* Body temperature: every 5 minutes
-* Sleep status: every 2 minutes
+* Heart rate: every 500ms<sup>[[DESC14]](./01_Problem_description.md#DESC14)</sup>
+* Blood pressure: every hour<sup>[[DESC15]](./01_Problem_description.md#DESC15)</sup>
+* Oxygen level: every 5 seconds<sup>[[DESC16]](./01_Problem_description.md#DESC16)</sup>
+* Blood sugar: every 2 minutes<sup>[[DESC17]](./01_Problem_description.md#DESC17)</sup>
+* Respiration: every second<sup>[[DESC18]](./01_Problem_description.md#DESC18)</sup>
+* ECG: every second<sup>[[DESC19]](./01_Problem_description.md#DESC19)</sup>
+* Body temperature: every 5 minutes<sup>[[DESC20]](./01_Problem_description.md#DESC20)</sup>
+* Sleep status: every 2 minutes<sup>[[DESC21]](./01_Problem_description.md#DESC21)</sup>
 
 ## Non-functional Requirements
 
@@ -48,10 +48,10 @@ Non functional requirements are derived from functional requirements and busines
 
 ### Scalability/Elasticity
 
-* <a name="NFR3"></a>[NFR3] There is a maximum of 20 patients per nurses station.
-* <a name="NFR4"></a>[NFR4] Maximum number of patients per physical MonitorMe instance: 500
+* <a name="NFR3"></a>[NFR3] There is a maximum of 20 patients per nurses station.<sup>[[DESC5]](./01_Problem_description.md#DESC5)</sup>
+* <a name="NFR4"></a>[NFR4] Maximum number of patients per physical MonitorMe instance: 500<sup>[[DESC23]](./01_Problem_description.md#DESC23)</sup>
 * <a name="NFR5"></a>[NFR5] The system should be elastic when adding/removing new hospitals. (Change data volume,
-  traffic and computing units)
+  traffic and computing units)<sup>[[DESC25]](./01_Problem_description.md#DESC25)</sup>
 
 ### Perfomance
 
