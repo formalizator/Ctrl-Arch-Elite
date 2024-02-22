@@ -71,7 +71,7 @@ Non functional requirements are derived from functional requirements and busines
 
 ## Requirements matrix
 
-| FR/TR         | Availability | Scalability | Performance | Consistency | Cost | Evolvability | Usability | Reliability | Robustness | Security |
+| FR/TR         | Availability | [Scalability](#scalabilityelasticity) | [Performance](#perfomance) | Consistency | Cost | [Evolvability](#evolvability) | Usability | [Reliability](#reliability) | [Robustness](#robustnessfault-tolerance) | [Security](#securityprivacy) |
 |---------------|--------------|-------------|-------------|-------------|------|--------------|-----------|-------------|------------|----------|
 | [FR1](#FR1)   |              |             |             |             |      |              |           |             |            |          |
 | [FR2](#FR2)   |              |             |             |             |      |              |           |             |            |          |
