@@ -7,9 +7,9 @@
 **Stakeholders**
 
 - [x] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 
@@ -19,11 +19,15 @@ In consideration of the following requirements:
 - **[FR3]** - Display data rotating between patients every 5 seconds
 - **[FR9]** - Alerts received on mobile app and displayed on monitoring screen as well
 
-
+We assume that we need to configure up to 25 monitoring screens in the hospital.
 
 ## Decision
 
-decision and justification (the “why”)
+We can use monitoring screens with browser and web application on each screen for displaying patient monitoring data.
+
+* **Pros:** can be easily updated and customized, remote management and content updates are possible, can incorporate interactive elements
+* **Cons:** possible performance issues for complex web applications, system updates could potentially disrupt the display process
 
 ## Consequences
-trade-offs and impact of decision
+
+TODO

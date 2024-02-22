@@ -6,19 +6,25 @@
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 
-description of the problem and alternative solutions available (documentation)
-**scope**
+In consideration of the following requirements:
+
+- **[FR5]** - Review of vital signs history is possible, filtering on time range as well as vital sign
+- **[FR10]** - Generate holistic snapshots from a patients consolidated vital signs at any time
+
+And with assumption that medical staff may need to access cloud-based solution MyMedicalData and MonitorThem, 
+we assume that we need to configure up to 25 computer devices on nurse stations in the hospital, independent of monitoring screens.
 
 ## Decision
 
-decision and justification (the “why”)
+We can use workstations with browser to access MonitorMe system, as well as other StayHealthy, Inc. systems.
 
 ## Consequences
-trade-offs and impact of decision
+
+TODO

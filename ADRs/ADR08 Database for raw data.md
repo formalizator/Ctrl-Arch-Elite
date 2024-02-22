@@ -2,7 +2,7 @@
 
 **Status** : proposed
 
-**Date** : 21.02.2024
+**Date** : 20.02.2024
 
 **Stakeholders**
 
@@ -61,6 +61,7 @@ ____
 ### Option 3: Time-Series Database
 
 Use time-series databases, that are specifically designed for handling time-stamped data efficiently.
+
 * **Pros:** optimized for time-series data, efficient storage and compression, high write throughput, time-ordered data retention, support for time-based queries
 * **Cons:** suboptimal for non-time-series data, scalability challenges
 
