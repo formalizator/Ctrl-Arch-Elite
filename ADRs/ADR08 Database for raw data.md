@@ -1,3 +1,5 @@
+# ADR08. Database for raw data
+
 **Status** : proposed
 
 **Date** : 21.02.2024
@@ -8,8 +10,6 @@
 - [ ] @formalizator
 - [ ] @slookin
 - [ ] @alkhamov
-
-# ADR08. Database for raw data
 
 ## Context
 

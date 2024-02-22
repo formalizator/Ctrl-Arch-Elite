@@ -7,20 +7,20 @@ This repository contains the results produced by the Team "Ctrl-Arch-Elite" duri
 
 ## Architecture Decisions
 
-- [ADR 1 Numering requirements](adrs/todo.md)
-- [ADR 2 Partner system as actors](adrs/todo.md)
-- [ADR 3 Merge staff and professionals](adrs/todo.md)
-- [ADR 4 IAM system](adrs/todo.md)
-- [ADR 5 Role based access](adrs/todo.md)
-- [ADR 6 Application architecture](adrs/todo.md)
-- [ADR 7 Database for processing](adrs/todo.md)
-- [ADR 8 Database for raw data](adrs/todo.md)
-- [ADR 9 Monitoring screen](adrs/todo.md)
-- [ADR 10 Nurse station](adrs/todo.md)
-- [ADR 11 Administrator access](adrs/todo.md)
-- [ADR 12 No email notifications](adrs/todo.md)
-- [ADR 13 No sms notificaions](adrs/todo.md)
-- [ADR 14 Mobile push notifications](adrs/todo.md)
+- [ADR 1 Numering requirements](ADRs/ADR01 Numering requirement.md)
+- [ADR 2 Partner system as actors](ADRs/ADR02 Partner system as actors.md)
+- [ADR 3 Merge staff and professionals](ADR03 Merge staff and professionals/todo.md)
+- [ADR 4 IAM system](ADRs/ADR04 IAM system.md)
+- [ADR 5 Role based access](ADRs/ADR05 Role based access.md)
+- [ADR 6 Application architecture](ADRs/ADR06 Application architecture.md)
+- [ADR 7 Database for processing](ADRs/ADR07 Database for processing.md)
+- [ADR 8 Database for raw data](ADRs/ADR08 Database for raw data.md)
+- [ADR 9 Monitoring screen](ADRs/ADR09 Monitoring screen.md)
+- [ADR 10 Nurse station](ADRs/ADR10 Nurse station.md)
+- [ADR 11 Administrator access](ADRs/ADR11 Administrator access.md)
+- [ADR 12 No email notifications](ADRs/ADR12 No email notifications.md)
+- [ADR 13 No sms notificaions](ADRs/ADR13 No sms notificaions.md)
+- [ADR 14 Mobile push notifications](ADRs/ADR14 Mobile push notifications.md)
 
 ## Results
 Our task was to develop architecture description which covers requirements for MonitorMe system (inital requirements documentd in [Problem Description document](/0_Requirements/01_Problem_description.md)).
