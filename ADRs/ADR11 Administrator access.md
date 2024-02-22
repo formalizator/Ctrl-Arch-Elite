@@ -1,6 +1,6 @@
 # ADR Title
 
-**Status** : proposed / accepted / superseded
+**Status** : proposed
 
 **Date** : 20.02.2024
 
@@ -13,12 +13,19 @@
 
 ## Context
 
-description of the problem and alternative solutions available (documentation)
-**scope**
+In consideration of the following use cases:
+
+- **[UC02]** - Register Medical staff in system
+- **[UC03]** - Assign access roles to Medical staff
+- **[UC04]** - Mapping Devices
+
+We assume that administrator access is needed in the system.
 
 ## Decision
 
-decision and justification (the “why”)
+- Provide administrator access with a special role in IAM system
+- Develop an admin functionality within the application
 
 ## Consequences
-trade-offs and impact of decision
+
+Implementing of admin functionality incurs additional costs related to development, infrastructure, and maintenance

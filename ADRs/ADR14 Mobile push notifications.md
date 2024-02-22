@@ -1,24 +1,32 @@
 # ADR Title
 
-**Status** : proposed / accepted / superseded
+**Status** : proposed
 
 **Date** : 20.02.2024
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 
-description of the problem and alternative solutions available (documentation)
-**scope**
+In consideration of the following requirement:
+
+- **[FR9]** - Alerts received on mobile app and displayed on monitoring screen as well
+
+we need a solution for mobile push notifications.
 
 ## Decision
 
-decision and justification (the “why”)
+We can use cloud-based solution for push notifications, depending on the infrastructure of existing cloud-based solutions:
+- Amazon: [AWS SNS](https://aws.amazon.com/sns/)
+- GCP: [Pub/Sub](https://cloud.google.com/pubsub) and [FCM](https://firebase.google.com/docs/cloud-messaging)
+- Azure: [Notification Hub](https://azure.microsoft.com/en-us/services/notification-hubs/), [Event Grid](https://azure.microsoft.com/en-us/services/event-grid/)
 
 ## Consequences
-trade-offs and impact of decision
+- Leveraging a specific push notification service can simplify development and management tasks
+- Low latency for delivering notifications to mobile devices
+- May come with additional costs due to the distributed infrastructure required

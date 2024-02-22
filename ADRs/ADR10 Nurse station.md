@@ -1,6 +1,6 @@
 # ADR Title
 
-**Status** : proposed / accepted / superseded
+**Status** : proposed
 
 **Date** : 20.02.2024
 

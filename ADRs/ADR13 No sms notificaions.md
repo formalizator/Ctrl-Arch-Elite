@@ -1,6 +1,6 @@
 # ADR Title
 
-**Status** : proposed / accepted / superseded
+**Status** : proposed
 
 **Date** : 20.02.2024
 
@@ -13,7 +13,8 @@
 
 ## Context
 
-Based on list of all functional and non-functional [requirements](../0_Requirements/03_Requirements.md), there is no requests for SMS notifications.
+Based on list of all functional and non-functional [requirements](../0_Requirements/03_Requirements.md),
+there are no implicit requests for SMS notifications.
 For mobile devices, push notifications are requested.
 We should also provide cost-optimised solution.
 
