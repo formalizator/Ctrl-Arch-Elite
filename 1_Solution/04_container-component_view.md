@@ -14,3 +14,4 @@ They have strict functionality assignment and can be decomposed in separate cont
 
 ![Component diagram](./../images/component-diagram-monitorme-hospital.drawio.png "Component diagram")
 
+[](#monitorme-hospital---component-diagram)
