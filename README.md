@@ -22,7 +22,7 @@ Our architectural description is structured into several chapters. Please utiliz
   * [Context view](1_Solution/03_system_context.md)
   * [Container view](1_Solution/04_container-component_view.md#monitorme---container-diagram)
   * [Component view](1_Solution/04_container-component_view.md#monitorme-hospital---component-diagram)
-* [Architecture Decisions](ADRs/Readme.md)
+* [Architecture Decisions](ADRs/README.md)
 
 ## Team
 
