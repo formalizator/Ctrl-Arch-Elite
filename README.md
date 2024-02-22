@@ -18,7 +18,6 @@ Our architectural description is structured into several chapters. Please utiliz
 * [Whitebox Overall System]
 * [Deployment View]
 * [Architecture Decisions](ADRs/Readme.md)
-* [References]
 
 
 ### Team
