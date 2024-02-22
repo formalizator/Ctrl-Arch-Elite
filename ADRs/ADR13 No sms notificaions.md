@@ -6,19 +6,19 @@
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 
-description of the problem and alternative solutions available (documentation)
-**scope**
+Based on list of all functional and non-functional [requirements](../0_Requirements/03_Requirements.md), there is no requests for SMS notifications.
 
 ## Decision
 
-decision and justification (the “why”)
+No SMS notifications are configured in the first release of the system.
 
 ## Consequences
-trade-offs and impact of decision
+
+TODO
