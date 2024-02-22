@@ -4,7 +4,7 @@
 
 This repository contains the results produced by the Team "Ctrl-Arch-Elite" during the Architectural Kata @ O’Reilly.
 
->Architectural Kata, inspired by Code Kata, is a group exercise aimed at improving software architecture design skills, allowing participants to gain experience and receive feedback from other participants. Such activities are conducted to promote good architectural practices, focusing on specific architectural styles, such as monolithic or micro-services architecture, or specific quality requirements (security, data privacy, performance etc.)  (Usman Nasir, Blekinge Institute of Technology, Sweden)
+> Architectural Kata, inspired by Code Kata, is a group exercise aimed at improving software architecture design skills, allowing participants to gain experience and receive feedback from other participants. Such activities are conducted to promote good architectural practices, focusing on specific architectural styles, such as monolithic or micro-services architecture, or specific quality requirements (security, data privacy, performance etc.)  (Usman Nasir, Blekinge Institute of Technology, Sweden)
 
 ## Results
 
