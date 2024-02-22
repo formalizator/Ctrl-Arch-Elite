@@ -6,10 +6,10 @@
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 Medical staff and medical professional these two types of actors mentioned separately within the *Business problem* description. Consider the possibility to merge them.

@@ -6,10 +6,10 @@
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 Define approach to the realization of the access management

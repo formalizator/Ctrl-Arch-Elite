@@ -6,10 +6,10 @@
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 Considering given architectural characteristics we left with the choice of two architectural approaches:

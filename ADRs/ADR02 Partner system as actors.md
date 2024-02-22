@@ -6,10 +6,10 @@
 
 **Stakeholders**
 
-- [ ] @vera-ignateva
-- [ ] @formalizator
-- [ ] @slookin
-- [ ] @alkhamov
+- [x] @vera-ignateva
+- [x] @formalizator
+- [x] @slookin
+- [x] @alkhamov
 
 ## Context
 Identify partnering systems roles within the business context.
