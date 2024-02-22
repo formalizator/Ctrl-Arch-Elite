@@ -1,4 +1,4 @@
-# ADR Title
+# ADR07 Database for processing
 
 **Status** : proposed / accepted / superseded
 
@@ -13,12 +13,23 @@
 
 ## Context
 
-description of the problem and alternative solutions available (documentation)
-**scope**
+In consideration of the following requirements:
+
+- **[FR2]** - Display data from monitoring devices on monitoring screen per nurse station
+- **[FR3]** - Display data rotating between patients every 5 seconds
+- **[FR6]** - System analyzes each patient’s vital signs
+- **[FR9]** - Alerts received on mobile app and displayed on monitoring screen as well
+- **[FR10]** - Generate holistic snapshots from a patients consolidated vital signs at any time
+
+We assume that patient management is needed in the system.
 
 ## Decision
 
-decision and justification (the “why”)
+We consider using relation DB like PostgreSQL for this kind of data.
+
+* **Pros:** structured data storage, data integrity and consistency, data security
+* **Cons:** require a predefined schema, limited support for unstructured data
 
 ## Consequences
-trade-offs and impact of decision
+
+TODO

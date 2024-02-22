@@ -47,7 +47,7 @@ If we assume that we need 24 bytes for the raw record (device id, timestamp, val
 ### Option 1: SQL Database
 
 Use SQL solutions like PostgreSQL
-* **Pros:** structured data storage, data integrity and consistency, data security, sSupport for complex analytics
+* **Pros:** structured data storage, data integrity and consistency, data security, support for complex analytics
 * **Cons:** require a predefined schema, scalability challenges, storage overhead
 ____
 
