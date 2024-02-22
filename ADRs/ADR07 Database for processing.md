@@ -29,7 +29,3 @@ We consider using relation DB like PostgreSQL for this kind of data.
 
 * **Pros:** structured data storage, data integrity and consistency, data security
 * **Cons:** require a predefined schema, limited support for unstructured data
-
-## Consequences
-
-TODO
